@@ -1,0 +1,24 @@
+# Navigate to local project
+cd ~/Personal/project-name
+
+# Initialize Git (only if not already initialized)
+git init
+
+# Configure personal identity
+git config user.name "Nakul Sharma"
+git config user.email "YOUR_PERSONAL_EMAIL"
+
+# Stage files
+git add .
+
+# Commit
+git commit -m "Initial commit"
+
+# Connect personal GitHub repository
+git remote add origin git@github-personal:Nakul-2001/REPOSITORY.git
+
+# Set branch name
+git branch -M main
+
+# Push
+git push -u origin main
